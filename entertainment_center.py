@@ -14,11 +14,12 @@ avatar = media.Movie("Avatar",
                      "https://www.youtube.com/watch?v=1EnL7vUmvQ4")
 
 independence_day = media.Movie("Independence Day",
-                               "Aliens invade earth", "https://upload.wikimedia.org/wikipedia/en/b/bb/Independence_day_movieposter.jpg",
+                               "Aliens invade earth",
+                               "https://upload.wikimedia.org/wikipedia/en/b/bb/Independence_day_movieposter.jpg",
                                "https://www.youtube.com/watch?v=NZZvtQtdbzM")
 
 movies = [toy_story, avatar, independence_day]
 
 # This function call opens a page of movies generated from the input, an
-# arrayof movie instances.
+# array of movie instances.
 fresh_tomatoes.open_movies_page(movies)
